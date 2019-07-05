@@ -1,0 +1,61 @@
+{
+  "name": "firedash",
+  "version": "1.0.0",
+  "description": "Fire Dashboard React",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "start": "./node_modules/.bin/react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelsenne/firedash.git"
+  },
+  "keywords": [
+    "firedash",
+    "react",
+    "dashboard"
+  ],
+  "author": "Miguel Senne <miguel@miguelsenne.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelsenne/firedash/issues"
+  },
+  "homepage": "https://github.com/miguelsenne/firedash#readme",
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.0",
+    "@babel/preset-env": "7.5.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-jest": "24.8.0",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-to-json": "3.3.5",
+    "jest": "24.7.1",
+    "node-sass": "4.12.0"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "./tests/setupTests.js"
+    ]
+  }
+}
